@@ -1,0 +1,47 @@
+.doctor-message {
+    background-image: url('../../assets/slider/slider-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.doctor-message .inner-lay {
+    background-color: rgba(0, 171, 159, 0.9);
+    padding: 50px;
+    padding-bottom: 0px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 940px) {
+    .doctor-message .inner-lay {
+        padding: 30px 10px;
+    }
+}
+
+.doctor-message .doc-img {
+    text-align: center;
+}
+
+.doctor-message .doc-img img {
+    width: 400px;
+    margin-top: -140px;
+}
+
+.doctor-message .doc-det h2 {
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+.doctor-message .doc-det span {
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+.doctor-message .doc-det p {
+    margin-top: 30px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+
+.doctor-message .doc-det h4 {
+    margin-top: 30px;
+}

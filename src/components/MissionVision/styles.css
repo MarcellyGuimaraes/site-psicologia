@@ -1,0 +1,32 @@
+.mosion-vision {
+    padding: 50px;
+    background-color: #FFF;
+}
+
+@media screen and (max-width: 940px) {
+    .mosion-vision {
+        padding: 30px 10px;
+    }
+}
+
+.mosion-vision .single-dd {
+    background-color: #f6f4f6;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .mosion-vision .single-dd {
+        margin-bottom: 30px;
+    }
+}
+
+.mosion-vision .single-dd p {
+    font-size: 1.1rem;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.mosion-vision .single-dd .btn {
+    float: right;
+}

@@ -1,0 +1,65 @@
+header {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #FFF;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+.item {
+    float: left;
+    padding: 30px 20px;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 824px) {
+    .item {
+        padding: 30px 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .item {
+        float: none;
+        padding: 10px;
+        border-top: 1px solid #CCC;
+    }
+}
+
+header img {
+    margin-top: 10px;
+    max-width: 230px;
+}
+
+@media screen and (max-width: 767px) {
+    header img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+header .btn {
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;
+    margin-top: 22px;
+}
+
+.scroll_to_fixed_fixed {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: #FFF;
+    z-index: 9999;
+}
+
+.small-menu {
+    float: right;
+    color: #00ab9f;
+    font-size: 32px;
+    margin-top: 19px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 405px) {
+    .small-menu {
+        margin-top: 14px;
+    }
+}

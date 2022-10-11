@@ -1,0 +1,32 @@
+.sesion-type {
+    padding: 50px;
+}
+
+@media screen and (max-width: 940px) {
+    .sesion-type {
+        padding: 30px 10px;
+    }
+}
+
+.sesion-type .single-sess {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    background-color: #FFF;
+    margin-bottom: 30px;
+}
+
+.sesion-type .single-sess img {
+    width: 100%;
+}
+
+.sesion-type .single-sess p {
+    padding: 10px;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sesion-type .sess-ok {
+    padding: 57px 30px;
+    text-align: center;
+}
