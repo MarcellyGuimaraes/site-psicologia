@@ -21,7 +21,7 @@ a:hover {
     color: #444;
 }
 
-.item {
+.item_li {
     float: left;
     padding: 30px 20px;
     font-family: "mouse-500", Arial, Helvetica, sans-serif;
@@ -49,17 +49,18 @@ header .btn {
 }
 
 @media screen and (max-width: 824px) {
-    .item {
+    .item_li {
         padding: 30px 16px;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .item {
+@media screen and (max-width: 768px) {
+    .item_li {
         float: none;
         padding: 10px;
         border-top: 1px solid #CCC;
     }
+
     header img {
         margin-top: 5px;
         margin-bottom: 5px;
