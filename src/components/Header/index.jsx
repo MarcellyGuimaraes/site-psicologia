@@ -5,32 +5,32 @@ import './styles.css'
 const Header = () => {
   return (
     <header id="menu-jk" className="scroll_to_fixed_fixed">
-      <nav className="container">
+      <nav className="">
+        {/* <div className="container"> */}
         <div className="row nav-ro">
           <Logo />
-
           <div
             id="menu"
             className="col-lg-7 col-md-8 d-none d-md-block no-padding"
           >
             <ul>
               <li className="item">
-                <a href="#teste">Home</a>
+                <a href="index.html">Home</a>
               </li>
               <li className="item">
-                <a href="#teste">About Us</a>
+                <a href="about_us.html">About Us</a>
               </li>
               <li className="item">
-                <a href="#teste">Services</a>
+                <a href="services.html">Services</a>
               </li>
               <li className="item">
-                <a href="#teste">Blog</a>
+                <a href="blog.html">Blog</a>
               </li>
               <li className="item">
-                <a href="#teste">Gallery</a>
+                <a href="gallery.html">Gallery</a>
               </li>
               <li className="item">
-                <a href="#teste">Contact Us</a>
+                <a href="contact_us.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -38,6 +38,7 @@ const Header = () => {
             <button className="btn btn-success">Book an Appointment</button>
           </div>
         </div>
+        {/* </div> */}
       </nav>
     </header>
   )

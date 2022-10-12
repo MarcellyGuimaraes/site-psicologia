@@ -20,6 +20,12 @@ body {
   height: 100%;
 }
 
+body {
+  background-color: #f7f7ff !important;
+  font-family: "mouse-300", Arial, Helvetica, sans-serif;
+  color: #6A6A6A;
+}
+
 p {
   margin-bottom: 0px;
   width: 100%;
@@ -28,17 +34,6 @@ p {
 img {
   max-width: 100%;
 }
-
-a {
-  text-decoration: none;
-  outline: none;
-  color: #444;
-}
-
-a:hover {
-  color: #444;
-}
-
 ul {
   margin-bottom: 0;
   padding-left: 0;
@@ -63,12 +58,6 @@ h6 {
 
 strong {
   font-family: "mouse-500", Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: #f7f7ff !important;
-  font-family: "mouse-300", Arial, Helvetica, sans-serif;
-  color: #6A6A6A;
 }
 
 .center {

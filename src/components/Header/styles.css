@@ -6,6 +6,21 @@ header {
     z-index: 9999;
 }
 
+header img {
+    margin-top: 10px;
+    max-width: 230px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #444;
+}
+
+a:hover {
+    color: #444;
+}
+
 .item {
     float: left;
     padding: 30px 20px;
@@ -13,31 +28,6 @@ header {
     font-size: 16px;
 }
 
-@media screen and (max-width: 824px) {
-    .item {
-        padding: 30px 16px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .item {
-        float: none;
-        padding: 10px;
-        border-top: 1px solid #CCC;
-    }
-}
-
-header img {
-    margin-top: 10px;
-    max-width: 230px;
-}
-
-@media screen and (max-width: 767px) {
-    header img {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-}
 
 header .btn {
     font-family: "mouse-500", Arial, Helvetica, sans-serif;
@@ -56,6 +46,24 @@ header .btn {
     font-size: 32px;
     margin-top: 19px;
     margin-right: 12px;
+}
+
+@media screen and (max-width: 824px) {
+    .item {
+        padding: 30px 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .item {
+        float: none;
+        padding: 10px;
+        border-top: 1px solid #CCC;
+    }
+    header img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (max-width: 405px) {
