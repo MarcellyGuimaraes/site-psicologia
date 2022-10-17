@@ -1,4 +1,5 @@
 import React from 'react'
+import { header } from './api'
 import Logo from './Logo'
 import './styles.css'
 
@@ -14,24 +15,11 @@ const Header = () => {
               className="col-lg-7 col-md-8 d-none d-md-block no-padding"
             >
               <ul>
-                <li className="item_li">
-                  <a href="index.html">Home</a>
-                </li>
-                <li className="item_li">
-                  <a href="about_us.html">About Us</a>
-                </li>
-                <li className="item_li">
-                  <a href="services.html">Services</a>
-                </li>
-                <li className="item_li">
-                  <a href="blog.html">Blog</a>
-                </li>
-                <li className="item_li">
-                  <a href="gallery.html">Gallery</a>
-                </li>
-                <li className="item_li">
-                  <a href="contact_us.html">Contact Us</a>
-                </li>
+                {header.map((item) => (
+                  <li key={item.id} className="item_li">
+                    <a href={item.link}>{item.content}</a>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="col-sm-2 d-none d-lg-block">
