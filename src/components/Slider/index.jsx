@@ -1,22 +1,19 @@
 import React from 'react'
+import { slider } from '../../assets/api'
 import './styles.css'
+
 import 'owl.carousel/dist/assets/owl.carousel.css'
 import 'owl.carousel/dist/assets/owl.theme.default.css'
 import ReactOwlCarousel from 'react-owl-carousel'
-
-import slider1 from '../../assets/images/slider/slider-1.jpg'
-import slider2 from '../../assets/images/slider/slider-2.jpg'
-import slider3 from '../../assets/images/slider/slider-3.jpg'
-import { slider } from '../../assets/api'
 
 const Slider = () => {
   return (
     <div className="slider">
       <ReactOwlCarousel items={1} margin={8} autoplay={true} loop>
-        {/* {slider.map((i) => (
+        {slider.map((i) => (
           <div key={i.id} className="item">
             <div className="slider-img">
-              <img src={i.image} alt="" />
+              <img src={i.img} alt="" />
             </div>
             <div className="container">
               <div className="row">
@@ -32,8 +29,9 @@ const Slider = () => {
               </div>
             </div>
           </div>
-        ))} */}
-        <div className="item">
+        ))}
+
+        {/* <div className="item">
           <div className="slider-img">
             <img src={slider1} alt="" />
           </div>
@@ -95,7 +93,7 @@ const Slider = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </ReactOwlCarousel>
     </div>
   )

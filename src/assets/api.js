@@ -1,6 +1,6 @@
-import slider1 from './images/slider/slider-1.jpg'
-import slider2 from './images/slider/slider-2.jpg'
-import slider3 from './images/slider/slider-3.jpg'
+import slider1 from './images/slider/slider1.jpg'
+import slider2 from './images/slider/slider2.jpg'
+import slider3 from './images/slider/slider3.jpg'
 
 export const header = [
   {
@@ -33,28 +33,29 @@ export const header = [
 export const slider = [
   {
     id: 1,
-    title: 'Feeling stress or anxious?',
+    title: 'Sentindo-se estressado ou ansioso?',
     text:
-      'We can help you conquer a wide range of psychological and emotional problems',
-    image: { slider1 },
-    text_button: 'View All Therapies',
+      'Podemos te ajudar a superar uma grande variedade de problemas psicológicos e emocionais',
+    img: slider1,
+    text_button: 'Ver Todas As Terapias',
     link: '#test',
   },
   {
     id: 2,
-    title: 'Its time for better help.',
+    title: 'É hora de uma ajuda melhor.',
     text:
-      'We can help you conquer a wide range of psychological and emotional problems.',
-    image: { slider2 },
-    text_button: 'Schedule A Visit',
+      'Podemos te ajudar a superar uma grande variedade de problemas psicológicos e emocionais',
+    img: slider2,
+    text_button: 'Agende Uma Visita',
     link: '#test',
   },
   {
     id: 3,
-    title: 'Meet our psychiatrists',
-    text: 'Our psychiatrists are highly skilled to meet your unique needs.',
-    image: { slider3 },
-    text_button: 'Meet Psychiatrists',
+    title: 'Encontre nossos psicólogos',
+    text:
+      'Nossos psiquiatras são altamente qualificados para atender às suas necessidades exclusivas.',
+    img: slider3,
+    text_button: 'Encontre psicólogos',
     link: '#test',
   },
 ]
