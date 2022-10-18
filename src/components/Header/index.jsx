@@ -1,5 +1,5 @@
 import React from 'react'
-import { header } from './api'
+import { header } from '../../assets/api.js'
 import Logo from './Logo'
 import './styles.css'
 

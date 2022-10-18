@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import fontawesome from '@fortawesome/fontawesome'
 import React from 'react'
-import logo from '../../assets/logo.jpg'
+import logo from '../../assets/images/logo.jpg'
 import './styles.css'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 

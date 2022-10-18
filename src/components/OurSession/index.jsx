@@ -1,9 +1,9 @@
 import React from 'react'
-import therapy1 from '../../assets/session/therapy-1.jpg'
-import therapy2 from '../../assets/session/therapy-2.jpg'
-import therapy3 from '../../assets/session/therapy-3.jpg'
-import therapy4 from '../../assets/session/therapy-4.jpg'
-import therapy5 from '../../assets/session/therapy-5.jpg'
+import therapy1 from '../../assets/images/session/therapy-1.jpg'
+import therapy2 from '../../assets/images/session/therapy-2.jpg'
+import therapy3 from '../../assets/images/session/therapy-3.jpg'
+import therapy4 from '../../assets/images/session/therapy-4.jpg'
+import therapy5 from '../../assets/images/session/therapy-5.jpg'
 import './styles.css'
 
 const OurSession = () => {
