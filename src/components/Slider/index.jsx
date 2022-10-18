@@ -7,11 +7,32 @@ import ReactOwlCarousel from 'react-owl-carousel'
 import slider1 from '../../assets/images/slider/slider-1.jpg'
 import slider2 from '../../assets/images/slider/slider-2.jpg'
 import slider3 from '../../assets/images/slider/slider-3.jpg'
+import { slider } from '../../assets/api'
 
 const Slider = () => {
   return (
     <div className="slider">
       <ReactOwlCarousel items={1} margin={8} autoplay={true} loop>
+        {/* {slider.map((i) => (
+          <div key={i.id} className="item">
+            <div className="slider-img">
+              <img src={i.image} alt="" />
+            </div>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                  <div className="slider-captions">
+                    <h1 className="slider-title">{i.title}</h1>
+                    <p className="slider-text hidden-xs">{i.text}</p>
+                    <a href={i.link} className="btn btn-success hidden-xs">
+                      {i.text_button}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))} */}
         <div className="item">
           <div className="slider-img">
             <img src={slider1} alt="" />
