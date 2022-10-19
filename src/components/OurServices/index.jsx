@@ -3,6 +3,7 @@ import service1 from '../../assets/images/services/service-1.jpg'
 import service2 from '../../assets/images/services/service-2.jpg'
 import service3 from '../../assets/images/services/service-3.jpg'
 import './styles.css'
+import { services } from '../../assets/api.js'
 
 const OurServices = () => {
   return (
@@ -18,64 +19,23 @@ const OurServices = () => {
         </div>
         <div className="col-sm-12 blog-cont">
           <div className="row no-margin">
-            <div className="col-lg-4 col-md-6 blog-smk">
-              <div className="blog-single">
-                <img src={service1} alt="" />
+            {services.map((service) => (
+              <div key={service.id} className="col-lg-4 col-md-6 blog-smk">
+                <div className="blog-single">
+                  <img src={service.img} alt="" />
 
-                <div className="blog-single-det">
-                  <h6>Deperssion</h6>
-                  <p>
-                    Not the answer you're looking for? Browse other questions
-                    tagged is simply dummy text of the printing and typesetting
-                    in
-                  </p>
-                  <a href="blog_single.html">
-                    <button className="btn btn-success btn-sm">
-                      More Detail
-                    </button>
-                  </a>
+                  <div className="blog-single-det">
+                    <h6>{service.title}</h6>
+                    <p>{service.text}</p>
+                    <a href={service.link}>
+                      <button className="btn btn-success btn-sm">
+                        Mais Detalhes
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 blog-smk">
-              <div className="blog-single">
-                <img src={service2} alt="" />
-
-                <div className="blog-single-det">
-                  <h6>Anxity</h6>
-                  <p>
-                    Not the answer you're looking for? Browse other questions
-                    tagged is simply dummy text of the printing and typesetting
-                    in
-                  </p>
-                  <a href="blog_single.html">
-                    <button className="btn btn-success btn-sm">
-                      More Detail
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 blog-smk">
-              <div className="blog-single">
-                <img src={service3} alt="" />
-
-                <div className="blog-single-det">
-                  <h6>Relationship Issue</h6>
-                  <p>
-                    Not the answer you're looking for? Browse other questions
-                    tagged is simply dummy text of the printing and typesetting
-                    in
-                  </p>
-                  <a href="blog_single.html">
-                    <button className="btn btn-success btn-sm">
-                      More Detail
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

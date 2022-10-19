@@ -8,7 +8,7 @@
     background-color: rgba(0, 171, 159, 0.9);
     padding: 50px;
     padding-bottom: 0px;
-    color: #FFF;
+    color: var(--white);
 }
 
 @media screen and (max-width: 940px) {

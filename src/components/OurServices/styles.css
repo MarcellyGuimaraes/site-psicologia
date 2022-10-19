@@ -1,6 +1,6 @@
 .our-blog {
     padding: 50px;
-    background-color: #FFF;
+    background-color: var(--white);
     padding-bottom: 100px;
 }
 
@@ -34,7 +34,6 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
 .our-blog .blog-single .figure {
     margin-bottom: 0px;
 }
@@ -47,7 +46,7 @@
     width: 90%;
     position: relative;
     margin-top: -80px;
-    background-color: #FFF;
+    background-color: var(--white);
 }
 
 .our-blog .blog-single-det .btn {

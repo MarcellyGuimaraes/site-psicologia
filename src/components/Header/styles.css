@@ -1,6 +1,6 @@
 header {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #FFF;
+    background-color: var(--white);
     position: absolute;
     width: 100%;
     z-index: 9999;
@@ -36,7 +36,7 @@ header .btn {
 
 .scroll_to_fixed_fixed {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #FFF;
+    background-color: var(--white);
     z-index: 9999;
 }
 

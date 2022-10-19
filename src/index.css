@@ -8,6 +8,9 @@
   src: url("./assets/fonts/PT_Sans-Web-Bold.ttf") format("truetype");
 }
 
+:root {
+  --white: #fff;
+}
 
 * {
   margin: 0px;

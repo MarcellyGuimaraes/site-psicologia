@@ -2,7 +2,7 @@
     padding: 50px;
     padding-bottom: 0px;
     background-color: #444;
-    color: #FFF;
+    color: var(--white);
 }
 
 @media screen and (max-width: 940px) {
@@ -27,7 +27,7 @@
 }
 
 .footer .link-list li a {
-    color: #FFF;
+    color: var(--white);
 }
 
 .footer .link-list li i {
@@ -43,11 +43,11 @@
 .copy {
     padding: 20px;
     background-color: #2E2E2E;
-    color: #FFF;
+    color: var(--white);
 }
 
 .copy a {
-    color: #FFF;
+    color: var(--white);
 }
 
 .copy span {

@@ -1,6 +1,6 @@
 .mosion-vision {
     padding: 50px;
-    background-color: #FFF;
+    background-color: var(--white);
 }
 
 @media screen and (max-width: 940px) {
