@@ -17,6 +17,13 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .doc-img {
+        height: 27rem;
+        padding: 4rem 0;
+    }
+}
+
 .doctor-message .doc-img {
     text-align: center;
 }
