@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { header } from '../../assets/api.js'
 import './styles.css'
 import logo from '../../assets/images/logo.jpg'
@@ -9,6 +9,12 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   fontawesome.library.add(faBars)
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
+
+  const handleClick = () => {
+    setIsNavExpanded(!isNavExpanded)
+  }
+
   return (
     <header id="menu-jk" className="scroll_to_fixed_fixed">
       <div className="container">
@@ -16,7 +22,9 @@ const Header = () => {
           {/* Logo */}
           <div className="col-lg-3 col-md-4 col-sm-12">
             <img src={logo} alt="" />
+
             <FontAwesomeIcon
+              onClick={handleClick}
               icon="bars"
               className="d-block d-md-none small-menu"
             />
@@ -25,7 +33,10 @@ const Header = () => {
           {/* Menu */}
           <div
             id="menu"
-            className="col-lg-7 col-md-8 d-none d-md-block no-padding"
+            className={`col-lg-7 col-md-8 no-padding ${
+              isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
+            }`}
+            // className="col-lg-7 col-md-8 d-none d-md-block no-padding navigation-menu"
           >
             <ul>
               {header.map((item) => (

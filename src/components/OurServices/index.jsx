@@ -1,7 +1,4 @@
 import React from 'react'
-import service1 from '../../assets/images/services/service-1.jpg'
-import service2 from '../../assets/images/services/service-2.jpg'
-import service3 from '../../assets/images/services/service-3.jpg'
 import './styles.css'
 import { services } from '../../assets/api.js'
 
