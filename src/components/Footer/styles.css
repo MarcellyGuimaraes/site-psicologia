@@ -5,6 +5,15 @@
     color: var(--white);
 }
 
+.link_footer {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.link_footer:hover {
+    color: rgb(186, 253, 212);
+}
+
 @media screen and (max-width: 940px) {
     .footer {
         padding: 30px 10px;

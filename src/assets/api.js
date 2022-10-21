@@ -6,6 +6,12 @@ import service1 from './images/services/service-1.jpg'
 import service2 from './images/services/service-2.jpg'
 import service3 from './images/services/service-3.jpg'
 
+import therapy1 from './images/session/therapy-1.jpg'
+import therapy2 from './images/session/therapy-2.jpg'
+import therapy3 from './images/session/therapy-3.jpg'
+import therapy4 from './images/session/therapy-4.jpg'
+import therapy5 from './images/session/therapy-5.jpg'
+
 export const header = [
   {
     id: 1,
@@ -88,5 +94,54 @@ export const services = [
       'Não é a resposta que você está procurando? Procure outras perguntas com a tag. É simplesmente texto fictício para teste.',
     img: service2,
     link: '#test',
+  },
+]
+
+export const missions = [
+  {
+    id: 1,
+    title: 'Nossa Missão',
+    text:
+      'Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of (APENAS UM TEXTO DE TESTE)',
+  },
+  {
+    id: 2,
+    title: 'Nossa Visão',
+    text:
+      'Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of (APENAS UM TEXTO DE TESTE)',
+  },
+  {
+    id: 3,
+    title: 'Por que nos escolher?',
+    text:
+      'Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of (APENAS UM TEXTO DE TESTE)',
+  },
+]
+
+export const sessions = [
+  {
+    id: 1,
+    title: 'Terapia Individual',
+    img: therapy1,
+  },
+  {
+    id: 2,
+    title: 'Terapia de Cúpula',
+    img: therapy2,
+  },
+  {
+    id: 3,
+    title: 'Sessão Online',
+    img: therapy3,
+  },
+  {
+    id: 4,
+    title: 'Terapia em Grupo',
+    img: therapy4,
+  },
+  {
+    id: 5,
+    title: 'Todas as Faixas Etárias',
+    img: therapy5,
   },
 ]
