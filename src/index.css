@@ -10,6 +10,11 @@
 
 :root {
   --white: #fff;
+  --main: #00ab9f;
+  --main_hover: #02867e;
+  --link: #444;
+  --btn_info: #00a8df;
+  --btn_info_hover: #00779e;
 }
 
 * {
@@ -164,7 +169,7 @@ strong {
 .page-nav h2 {
   font-size: 36px;
   width: 100%;
-  color: #444;
+  color: var(--link);
 }
 
 @media screen and (max-width: 600px) {
@@ -183,52 +188,52 @@ strong {
 .page-nav ul li i {
   width: 30px;
   text-align: center;
-  color: #444;
+  color: var(--link);
 }
 
 .page-nav ul li a {
-  color: #444;
+  color: var(--link);
 }
 
 .btn-success {
-  background-color: #00ab9f;
-  border-color: #00ab9f;
+  background-color: var(--main);
+  border-color: var(--main);
 }
 
 .btn-success:hover {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: var(--main_hover) !important;
+  border-color: var(--main_hover) !important;
 }
 
 .btn-success:active {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: var(--main) !important;
+  border-color: var(--main) !important;
 }
 
 .btn-success:focus {
-  background-color: #00ab9f !important;
-  border-color: #00ab9f !important;
+  background-color: var(--main) !important;
+  border-color: var(--main) !important;
   box-shadow: none !important;
 }
 
 .btn-info {
-  background-color: #00a8df;
-  border-color: #00a8df;
+  background-color: var(--btn_info);
+  border-color: var(--btn_info);
 }
 
 .btn-info:hover {
-  background-color: #00a8df !important;
-  border-color: #00a8df !important;
+  background-color: var(--btn_info_hover) !important;
+  border-color: var(--btn_info_hover) !important;
 }
 
 .btn-info:active {
-  background-color: #00a8df !important;
-  border-color: #00a8df !important;
+  background-color: var(--btn_info) !important;
+  border-color: var(--btn_info) !important;
 }
 
 .btn-info:focus {
-  background-color: #00a8df !important;
-  border-color: #00a8df !important;
+  background-color: var(--btn_info) !important;
+  border-color: var(--btn_info) !important;
   box-shadow: none !important;
 }
 
@@ -239,11 +244,11 @@ strong {
 
 .form-control:focus {
   box-shadow: none !important;
-  border: 2px solid #00a8df;
+  border: 2px solid var(--btn_info);
 }
 
 .btn-light {
-  background-color: #FFF;
+  background-color: var(--white);
   color: #3F3F3F;
 }
 
@@ -268,6 +273,6 @@ strong {
 }
 
 .form-control:focus {
-  background-color: #FFF;
+  background-color: var(--white);
   border-color: #CCC;
 }
