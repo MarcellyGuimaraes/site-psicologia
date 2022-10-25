@@ -1,5 +1,5 @@
 import React from 'react'
-import doctt from '../../assets/images/doctt.png'
+import doctt from '../../../assets/images/doctt.png'
 import './styles.css'
 
 const DoctorMessage = () => {

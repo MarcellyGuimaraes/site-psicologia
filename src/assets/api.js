@@ -16,27 +16,27 @@ export const header = [
   {
     id: 1,
     content: 'Início',
-    link: '#test',
+    link: '/',
   },
   {
     id: 2,
     content: 'Sobre Nós',
-    link: '#test',
+    link: '/about_us',
   },
   {
     id: 3,
     content: 'Serviços',
-    link: '#test',
+    link: '/services',
   },
   {
     id: 4,
     content: 'Blog',
-    link: '#test',
+    link: '/blog',
   },
   {
     id: 6,
     content: 'Fale Conosco',
-    link: '#test',
+    link: '/fale_conosco',
   },
 ]
 

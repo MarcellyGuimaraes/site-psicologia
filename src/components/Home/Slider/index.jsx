@@ -1,5 +1,5 @@
 import React from 'react'
-import { slider } from '../../assets/api'
+import { slider } from '../../../assets/api'
 import './styles.css'
 
 import 'owl.carousel/dist/assets/owl.carousel.css'

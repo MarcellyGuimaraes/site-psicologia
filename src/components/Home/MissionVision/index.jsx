@@ -1,5 +1,5 @@
 import React from 'react'
-import { missions } from '../../assets/api'
+import { missions } from '../../../assets/api'
 import './styles.css'
 
 const MissionVision = () => {

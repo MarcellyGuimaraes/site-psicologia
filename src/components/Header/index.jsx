@@ -4,6 +4,7 @@ import './styles.css'
 import logo from '../../assets/images/logo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import fontawesome from '@fortawesome/fontawesome'
+import { Link } from 'react-router-dom'
 
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -41,7 +42,7 @@ const Header = () => {
             <ul>
               {header.map((item) => (
                 <li key={item.id} className="item_li">
-                  <a href={item.link}>{item.content}</a>
+                  <Link to={item.link}>{item.content}</Link>
                 </li>
               ))}
             </ul>

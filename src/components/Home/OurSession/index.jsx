@@ -1,5 +1,5 @@
 import React from 'react'
-import { sessions } from '../../assets/api'
+import { sessions } from '../../../assets/api'
 import './styles.css'
 
 const OurSession = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { services } from '../../assets/api.js'
+import { services } from '../../../assets/api.js'
 
 const OurServices = () => {
   return (
