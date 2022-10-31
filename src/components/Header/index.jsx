@@ -10,6 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   fontawesome.library.add(faBars)
+
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   const handleClick = () => {

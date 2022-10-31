@@ -1,22 +1,26 @@
+import fontawesome from '@fortawesome/fontawesome'
+import { faAngleDoubleRight, faHome } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 const AboutUs = () => {
+  fontawesome.library.add(faHome, faAngleDoubleRight)
+
   return (
     <>
       About Us
       <div className="page-nav no-margin row">
         <div className="container">
           <div className="row">
-            <h2>About Spinta Clinic</h2>
+            <h2>Sobre a Clínica</h2>
             <ul>
               <li>
-                {' '}
-                <a href="#">
-                  <i className="fas fa-home"></i> Home
+                <a href="/">
+                  <FontAwesomeIcon icon="house" /> Início
                 </a>
               </li>
               <li>
-                <i className="fas fa-angle-double-right"></i> About Us
+                <FontAwesomeIcon icon="angles-right" /> Sobre Nós
               </li>
             </ul>
           </div>
@@ -29,9 +33,8 @@ const AboutUs = () => {
               <img src="assets/images/aboout.jpg" alt="" />
             </div>
             <div className="col-md-6 col-sm-12">
-              <h2>Welcome to Spinta Clinic</h2>
+              <h2>Bem-Vindo(a) a Clinica XX</h2>
               <p>
-                {' '}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 varius eros consequat auctor gravida. Fusce tristique lacus at
                 urna sollicitudin pulvinar. Suspendisse hendrerit ultrices
@@ -39,7 +42,6 @@ const AboutUs = () => {
                 Suspendisse hendrerit ultrices mauris.
               </p>
               <p>
-                {' '}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 varius eros consequat auctor gravida. Fusce tristique lacus at
                 urna sollicitudin pulvinar. Suspendisse hendrerit ultrices
@@ -52,13 +54,13 @@ const AboutUs = () => {
                 ultrices mauris.
               </p>
               <p>
-                {' '}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                 varius eros consequat auctor consectetur adipiscing elit. Nam
                 varius eros consequat auctorconsectetur adipiscing elit. Nam
                 varius eros consequat auctor gravida. Fusce tristique lacus at
                 urna sollicitudin pulvinar. Suspendisse hendrerit ultrices
-                mauris.Fusce tristique lacus at urna adipiscing{' '}
+                mauris.Fusce tristique lacus at urna adipiscing(APENAS UM TEXTO
+                DE TESTE)
               </p>
             </div>
           </div>
@@ -76,7 +78,7 @@ const AboutUs = () => {
                   simply text of thetypesetting Ipsum is simply text of the stry
                   simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum is simply text of the Lorem Ipsum is simply my
-                  text of{' '}
+                  text of(APENAS UM TEXTO DE TESTE)
                 </p>
               </div>
             </div>
@@ -88,7 +90,8 @@ const AboutUs = () => {
                   text of ply text of the Ipsum is simply text of thetypesetting
                   Ipsum is simply text of the stry simply <br />
                   dummy text of the printing and typesetting industry. Lorem
-                  Ipsum is simply text of the Lorem Ipsum is simply my text of{' '}
+                  Ipsum is simply text of the Lorem Ipsum is simply my text of
+                  (APENAS UM TEXTO DE TESTE)
                 </p>
               </div>
             </div>
@@ -97,7 +100,7 @@ const AboutUs = () => {
                 <h4>Why Choos Us ?</h4>
                 <p>
                   Effective Psychological Therapy with a minimum of 5 years post
-                  qualification experience.{' '}
+                  qualification experience.
                 </p>
 
                 <p>
@@ -108,7 +111,7 @@ const AboutUs = () => {
                 <p>
                   Lorem Ipsum is simply text of the Lorem Ipsum is simply my
                   text of ply text of the Ipsum f the Lorem Ipsum is simply my
-                  text of ply text{' '}
+                  text of ply text (APENAS UM TEXTO DE TESTE)
                 </p>
               </div>
             </div>
