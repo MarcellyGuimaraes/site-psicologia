@@ -1,11 +1,7 @@
-import fontawesome from '@fortawesome/fontawesome'
-import { faAngleDoubleRight, faHome } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { DoubleRight, Home } from '../../components/Icons'
 
 const AboutUs = () => {
-  fontawesome.library.add(faHome, faAngleDoubleRight)
-
   return (
     <>
       About Us
@@ -16,11 +12,11 @@ const AboutUs = () => {
             <ul>
               <li>
                 <a href="/">
-                  <FontAwesomeIcon icon="house" /> Início
+                  <Home /> Início
                 </a>
               </li>
               <li>
-                <FontAwesomeIcon icon="angles-right" /> Sobre Nós
+                <DoubleRight /> Sobre Nós
               </li>
             </ul>
           </div>
