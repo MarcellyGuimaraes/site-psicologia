@@ -30,11 +30,6 @@ export const header = [
   },
   {
     id: 4,
-    content: 'Blog',
-    link: '/blog',
-  },
-  {
-    id: 6,
     content: 'Fale Conosco',
     link: '/fale_conosco',
   },

@@ -23,13 +23,7 @@ const Services = () => {
         </div>
       </div>
 
-      <section className="sesion-type">
-        <div className="container">
-          <div className="row">
-            <OurSession />
-          </div>
-        </div>
-      </section>
+      <OurSession />
     </div>
   )
 }

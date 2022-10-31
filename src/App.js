@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 
 import AboutUs from './templates/AboutUs'
-import Blog from './templates/Blog'
 import FaleConosco from './templates/FaleConosco'
 import Home from './templates/Home'
 import Services from './templates/Services'
@@ -19,7 +18,6 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/about_us" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/fale_conosco" element={<FaleConosco />} />
         </Routes>
         <Footer />
