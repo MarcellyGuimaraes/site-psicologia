@@ -1,8 +1,36 @@
-import React from 'react'
-import { inputs } from '../../assets/api'
+import React, { useRef } from 'react'
 import { DoubleRight, Home } from '../../components/Icons'
+import emailjs from '@emailjs/browser'
+import {
+  YOUR_PUBLIC_KEY,
+  YOUR_SERVICE_ID,
+  YOUR_TEMPLATE_ID,
+} from '../../assets/api'
 
 const FaleConosco = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        YOUR_SERVICE_ID,
+        YOUR_TEMPLATE_ID,
+        form.current,
+        YOUR_PUBLIC_KEY,
+      )
+      .then(
+        (result) => {
+          alert(result, 'Seu email foi enviado! :)')
+          e.target.reset()
+        },
+        (error) => {
+          console.log(error.text)
+        },
+      )
+  }
+
   return (
     <div>
       <div className="page-nav no-margin row">
@@ -37,24 +65,36 @@ const FaleConosco = () => {
       <div className="row contact-rooo no-margin">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6">
+            <form ref={form} onSubmit={sendEmail} className="col-sm-6">
               <h2>Contact Form</h2>
 
-              {inputs.map((inp) => (
-                <div key={inp.id} className="row">
-                  <div className="col-sm-3">
-                    <label>{inp.label} :</label>
-                  </div>
-                  <div className="col-sm-8">
-                    <input
-                      type="text"
-                      placeholder={inp.label}
-                      name="name"
-                      className="form-control input-sm"
-                    />
-                  </div>
+              <div className="row">
+                <div className="col-sm-3">
+                  <label>Digite seu nome: </label>
                 </div>
-              ))}
+                <div className="col-sm-8">
+                  <input
+                    type="text"
+                    placeholder="Digite seu nome"
+                    name="user_name"
+                    className="form-control input-sm"
+                  />
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-sm-3">
+                  <label>Digite seu email: </label>
+                </div>
+                <div className="col-sm-8">
+                  <input
+                    type="email"
+                    placeholder="Digite seu email"
+                    name="user_email"
+                    className="form-control input-sm"
+                  />
+                </div>
+              </div>
 
               <div className="row">
                 <div className="col-sm-3">
@@ -63,6 +103,7 @@ const FaleConosco = () => {
                 <div className="col-sm-8">
                   <textarea
                     rows="5"
+                    name="message"
                     placeholder="Insira sua mensagem"
                     className="form-control input-sm"
                   ></textarea>
@@ -74,12 +115,14 @@ const FaleConosco = () => {
                   <label></label>
                 </div>
                 <div className="col-sm-8">
-                  <button className="btn btn-success btn-sm">
-                    Enviar Mensagem
-                  </button>
+                  <input
+                    type="submit"
+                    value="Enviar Mensagem"
+                    className="btn btn-success btn-sm"
+                  />
                 </div>
               </div>
-            </div>
+            </form>
 
             <div className="col-sm-6">
               <div className="serv">

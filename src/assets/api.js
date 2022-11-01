@@ -141,17 +141,6 @@ export const sessions = [
   },
 ]
 
-export const inputs = [
-  {
-    id: 1,
-    label: 'Insira seu nome',
-  },
-  {
-    id: 2,
-    label: 'Insira seu email',
-  },
-  {
-    id: 3,
-    label: 'Insira seu número de telefone',
-  },
-]
+export const YOUR_SERVICE_ID = 'service_kevyhs5'
+export const YOUR_TEMPLATE_ID = 'template_wrwokcd'
+export const YOUR_PUBLIC_KEY = 'XeOpeO9ovtPNIw47q'
