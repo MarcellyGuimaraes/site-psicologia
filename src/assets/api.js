@@ -43,7 +43,7 @@ export const slider = [
       'Podemos te ajudar a superar uma grande variedade de problemas psicológicos e emocionais',
     img: slider1,
     text_button: 'Ver Todas As Terapias',
-    link: '#test',
+    link: '/services',
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ export const slider = [
       'Podemos te ajudar a superar uma grande variedade de problemas psicológicos e emocionais',
     img: slider2,
     text_button: 'Agende Uma Visita',
-    link: '#test',
+    link: '/fale_conosco',
   },
   {
     id: 3,
@@ -60,8 +60,8 @@ export const slider = [
     text:
       'Nossos psiquiatras são altamente qualificados para atender às suas necessidades exclusivas.',
     img: slider3,
-    text_button: 'Encontre psicólogos',
-    link: '#test',
+    text_button: 'Mais Detalhes',
+    link: '',
   },
 ]
 

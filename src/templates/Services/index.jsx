@@ -8,11 +8,11 @@ const Services = () => {
       <div className="page-nav no-margin row">
         <div className="container">
           <div className="row">
-            <h2>About Spinta Clinic</h2>
+            <h2>Serviços</h2>
             <ul>
               <li>
                 <a href="/">
-                  <Home /> Home
+                  <Home /> Início
                 </a>
               </li>
               <li>
@@ -30,7 +30,8 @@ const Services = () => {
             <p>
               Not the answer you're looking for? Printing and typesetting
               inLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry’s Lorem
+              industry. Lorem Ipsum has been the industry’s Lorem (APENAS UM
+              TEXTO DE TESTE)
             </p>
           </div>
           <div className="row">
