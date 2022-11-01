@@ -140,3 +140,18 @@ export const sessions = [
     img: therapy5,
   },
 ]
+
+export const inputs = [
+  {
+    id: 1,
+    label: 'Insira seu nome',
+  },
+  {
+    id: 2,
+    label: 'Insira seu email',
+  },
+  {
+    id: 3,
+    label: 'Insira seu número de telefone',
+  },
+]
