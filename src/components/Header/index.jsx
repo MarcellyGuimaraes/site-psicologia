@@ -23,7 +23,9 @@ const Header = () => {
         <div className="row nav-ro">
           {/* Logo */}
           <div className="col-lg-3 col-md-4 col-sm-12">
-            <img src={logo} alt="" />
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
 
             <FontAwesomeIcon
               onClick={handleClick}

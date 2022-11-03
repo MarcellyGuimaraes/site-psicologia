@@ -32,7 +32,7 @@ const Form = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="col-sm-6">
-      <h2>Contact Form</h2>
+      <h2>Formulário de Contato/Agendamento</h2>
 
       <div className="row">
         <div className="col-sm-3">
