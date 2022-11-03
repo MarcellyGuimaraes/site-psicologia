@@ -1,5 +1,7 @@
 import React from 'react'
 import { DoubleRight, Home } from '../../components/Icons'
+import './styles.css'
+import img from '../../assets/images/aboout.jpg'
 
 const AboutUs = () => {
   return (
@@ -26,7 +28,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <img src="assets/images/aboout.jpg" alt="" />
+              <img src={img} alt="" />
             </div>
             <div className="col-md-6 col-sm-12">
               <h2>Bem-Vindo(a) a Clinica XX</h2>
