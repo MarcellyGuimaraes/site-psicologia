@@ -140,7 +140,3 @@ export const sessions = [
     img: therapy5,
   },
 ]
-
-export const YOUR_SERVICE_ID = 'service_kevyhs5'
-export const YOUR_TEMPLATE_ID = 'template_wrwokcd'
-export const YOUR_PUBLIC_KEY = 'XeOpeO9ovtPNIw47q'

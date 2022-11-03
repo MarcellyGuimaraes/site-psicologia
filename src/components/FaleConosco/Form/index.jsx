@@ -1,10 +1,5 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import {
-  YOUR_PUBLIC_KEY,
-  YOUR_SERVICE_ID,
-  YOUR_TEMPLATE_ID,
-} from '../../../assets/api'
 
 const Form = () => {
   const form = useRef()
@@ -14,10 +9,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        YOUR_SERVICE_ID,
-        YOUR_TEMPLATE_ID,
+        process.env.YOUR_SERVICE_ID,
+        process.env.YOUR_TEMPLATE_ID,
         form.current,
-        YOUR_PUBLIC_KEY,
+        process.env.YOUR_PUBLIC_KEY,
       )
       .then(
         (result) => {
