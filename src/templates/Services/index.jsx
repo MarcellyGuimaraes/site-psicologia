@@ -1,6 +1,7 @@
 import React from 'react'
 import { sessions } from '../../assets/api'
 import { DoubleRight, Home } from '../../components/Icons'
+import './styles.css'
 
 const Services = () => {
   return (
@@ -47,7 +48,9 @@ const Services = () => {
               <div className="single-sess sess-ok">
                 <h4>Comece sua sessão hoje</h4>
                 <p>Dê o primeiro passo em sua jornada para se sentir melhor.</p>
-                <button className="btn btn-success">Agende uma Visita</button>
+                <a href="/fale_conosco" className="btn btn-success">
+                  Agende uma Visita
+                </a>
               </div>
             </div>
           </div>

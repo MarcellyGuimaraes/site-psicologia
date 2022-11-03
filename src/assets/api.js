@@ -61,7 +61,7 @@ export const slider = [
       'Nossos psiquiatras são altamente qualificados para atender às suas necessidades exclusivas.',
     img: slider3,
     text_button: 'Mais Detalhes',
-    link: '',
+    link: '/about_us',
   },
 ]
 
@@ -72,7 +72,7 @@ export const services = [
     text:
       'Não é a resposta que você está procurando? Procure outras perguntas com a tag. É simplesmente texto fictício para teste.',
     img: service1,
-    link: '#test',
+    link: '/services',
   },
   {
     id: 2,
@@ -80,7 +80,7 @@ export const services = [
     text:
       'Não é a resposta que você está procurando? Procure outras perguntas com a tag. É simplesmente texto fictício para teste.',
     img: service3,
-    link: '#test',
+    link: '/services',
   },
   {
     id: 3,
@@ -88,7 +88,7 @@ export const services = [
     text:
       'Não é a resposta que você está procurando? Procure outras perguntas com a tag. É simplesmente texto fictício para teste.',
     img: service2,
-    link: '#test',
+    link: '/services',
   },
 ]
 

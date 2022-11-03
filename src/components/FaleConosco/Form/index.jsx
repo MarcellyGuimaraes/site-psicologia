@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-
 import emailjs from '@emailjs/browser'
 import {
   YOUR_PUBLIC_KEY,
@@ -41,6 +40,7 @@ const Form = () => {
         </div>
         <div className="col-sm-8">
           <input
+            required
             type="text"
             placeholder="Digite seu nome"
             name="user_name"
@@ -55,6 +55,7 @@ const Form = () => {
         </div>
         <div className="col-sm-8">
           <input
+            required
             type="email"
             placeholder="Digite seu email"
             name="user_email"
@@ -69,6 +70,7 @@ const Form = () => {
         </div>
         <div className="col-sm-8">
           <textarea
+            required
             rows="5"
             name="message"
             placeholder="Insira sua mensagem"

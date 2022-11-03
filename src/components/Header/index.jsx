@@ -51,7 +51,9 @@ const Header = () => {
 
           {/* Botão */}
           <div className="col-sm-2 d-none d-lg-block">
-            <button className="btn btn-success">Book an Appointment</button>
+            <a href="/fale_conosco" className="btn btn-success">
+              Agente uma visita
+            </a>
           </div>
         </div>
       </div>
