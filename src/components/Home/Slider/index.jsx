@@ -1,17 +1,22 @@
-import React from 'react'
-import { slider } from '../../../assets/api'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import './styles.css'
 
-import 'owl.carousel/dist/assets/owl.carousel.css'
-import 'owl.carousel/dist/assets/owl.theme.default.css'
-import ReactOwlCarousel from 'react-owl-carousel'
+// Import Swiper styles
+import 'swiper/css'
+import { Pagination } from 'swiper'
+import { slider } from '../../../assets/api'
 
-const Slider = () => {
+const SliderTest = () => {
   return (
     <div className="slider">
-      <ReactOwlCarousel items={1} margin={8} autoplay={true} loop>
+      <Swiper
+        loop={true}
+        pagination={true}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
         {slider.map((i) => (
-          <div key={i.id} className="item">
+          <SwiperSlide key={i.id} className="item">
             <div className="slider-img">
               <img src={i.img} alt="" />
             </div>
@@ -28,11 +33,11 @@ const Slider = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </SwiperSlide>
         ))}
-      </ReactOwlCarousel>
+      </Swiper>
     </div>
   )
 }
 
-export default Slider
+export default SliderTest
