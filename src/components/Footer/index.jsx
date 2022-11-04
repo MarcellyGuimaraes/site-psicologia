@@ -25,12 +25,12 @@ const Footer = () => {
                 Marthandam (K.K District) <br />
                 Tamil Nadu, IND <br />
                 Telefone:{' '}
-                <a href="#" className="link_footer">
+                <a href="/fale_conosco" className="link_footer">
                   +55 75 9 9123-4567
                 </a>{' '}
                 <br />
                 Email:{' '}
-                <a href="#" className="link_footer">
+                <a href="/fale_conosco" className="link_footer">
                   info@bluedart.in
                 </a>
                 <br />
