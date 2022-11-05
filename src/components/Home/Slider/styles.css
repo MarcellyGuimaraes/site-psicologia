@@ -36,8 +36,15 @@
 }
 
 @media screen and (max-width: 572px) {
+    .slider-img img{
+        height: 25rem;
+    }
     .slider-captions {
-        display: none;
+        font-size: 15px;
+        bottom: 120px !important;
+    }
+    .slider-title {
+        font-size: 18px;
     }
 }
 
@@ -59,6 +66,9 @@
     background: -webkit-linear-gradient(top, rgba(45, 32, 44, 0.5) 0%, rgba(45, 32, 44, 0.5) 100%);
     /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0); */
     position: relative;
+}
+img{
+    width: 100%;
 }
 
 .slider-img {
